@@ -1,2 +1,2 @@
-###                                            <===== MUST-DO-INTERVIEW-PREPARATION ================>
-GeeksforGeeks Must Do Interview Preparation Solution Series
+###                                            <===== Complete-Interview-PREPARATION ================>
+GeeksforGeeks Complete Interview Preparation Solution Series
