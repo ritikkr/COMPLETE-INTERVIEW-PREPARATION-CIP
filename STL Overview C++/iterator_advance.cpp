@@ -8,6 +8,8 @@ int main()
     vector<int> :: iterator i = v.begin();
     advance(i, 3);
     cout<<(*i)<<endl;
+    advance(i, -3);
+    cout<<(*i)<<endl;
     return 0;
 }
 
