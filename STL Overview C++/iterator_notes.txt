@@ -1,0 +1,36 @@
+Input  Output
+    \   /
+    Forward
+       |
+    Birdirectional
+        |
+    Random
+
+These 5 operators are only logical classifications of iterators there is no such class exists for them.
+
+Input iterators allows you to read input not to write any things.
+Ouput iterators allows you to write only.
+Forward iterators have capabilities of read and write and move Forward only.
+Birdirectional iterators have capabilities of Forward + moves backward;
+Random acess iterators have all capabilities of Birdirectional iterators and you can get nth item and you can compare two iterators.
+==============================================================================================================
+                                              *Container*
+-> Simple Container
+    1) Forward Container  -- Forward
+    2)List                -- Birdirectional
+    3)Vector              -- Random
+
+-> Associate Container
+    Set              --  Birdirectional
+    map              --  Birdirectional
+    multimap         --  Birdirectional
+    multiset         --  Birdirectional
+
+    unordered_map    -- Forward
+    unordered_set    -- Forward
+
+-> Adaptive Container
+    they are interferece of top of Simple Container
+    queue                   -- Do not have Container
+    stack                   -- Do not have Container
+    priority_queue          -- Do not have Container
