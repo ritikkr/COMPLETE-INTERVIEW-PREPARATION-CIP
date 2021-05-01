@@ -22,7 +22,7 @@ int main()
     int x = 100;
     // cout<<arrMax<int, x>(arr, 3) << endl;   // this will throws an error because limit should be const only.    
     const int x = 100;
-    cout<<arrMax<int, x>(arr, 3) << endl;   // this will throws an error because limit should be const only.
+    // cout<<arrMax<int, x>(arr, 3) << endl;   // this will throws an error because limit should be const only.
     float arr2[] = {10.5, 3.5, 1.5, 30.5};
     cout<<arrMax<float, 50>(arr2, 4) << endl;
 

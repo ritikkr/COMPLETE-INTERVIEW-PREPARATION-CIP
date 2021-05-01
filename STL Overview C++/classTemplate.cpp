@@ -6,14 +6,9 @@ class Pair
     public:
     T x, y;
     Pair(T i, T j) { x= i; y = j; }
-    T getFirst();
+    T getFirst(){return x};
     T getSecond() {return y;}
 };
-template<typename T>
-Pair <T> :: getFirst()
-{
-    return x;
-}
 int main()
 {
     Pair<int> p1(10, 20), p2(30, 40);
