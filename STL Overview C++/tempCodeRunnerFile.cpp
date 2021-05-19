@@ -11,9 +11,9 @@ int main()
     advance(i, -3);
     cout<<(*i)<<endl;
     
-    
+    for(i = v.begin(); i!= v.end(); i++)
+    {
+        cout<<i;
+    }
     return 0;
 }
-
-// advance moves i to n pos ahead
-// next returns the iterator to n position ahead whereas advance itself moves to that position.
