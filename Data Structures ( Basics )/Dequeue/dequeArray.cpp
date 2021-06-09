@@ -42,6 +42,7 @@ struct Deque {
     }
 
     void deleteRear() {
+        
         if(isEmpty()){ return; }
         size--;
     }
@@ -51,7 +52,7 @@ struct Deque {
         else return arr[size-1];
     }
 };
-int m   ain()
+int main()
 {
     
 
